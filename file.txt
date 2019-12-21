@@ -14,7 +14,6 @@ driver.get("http://suninjuly.github.io/file_input.html")
 name=driver.find_element_by_name("firstname")
 
 # Пишем в строку свое имя:
-
 name.send_keys("Elizabeth")
 
 # Ищем строку, в которую нужно вписать свою фамилию:
