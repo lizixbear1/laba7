@@ -25,11 +25,11 @@ textinput=driver.find_element_by_css_selector(".form-control")
 textinput.send_keys(y)
 
 # Находим элемент, в котором необходимо поставить галочку:
-option1 = driver.find_element_by_css_selector("[for='robotCheckbox']")
+option1 = driver.find_element_by_id("robotCheckbox")
 option1.click() # Ставим галочку
 
 # Находим элемент, в котором необходимо поставить переключатель:
-option2 = driver.find_element_by_css_selector("[for='robotsRule']")
+option2 = driver.find_element_by_id("robotsRule")
 option2.click() # Ставим переключатель
 
 # Находим элемент кнопки "Submit":
